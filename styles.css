@@ -1,0 +1,137 @@
+/* Reset some default styles */
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .about {
+    background-color: #f9f9f9;
+    padding: 50px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+    /* Modify the existing .banner CSS rule in your styles.css */
+
+  /* Add this CSS to your existing styles.css */
+
+.registration {
+    background-color: #f9f9f9;
+    padding: 50px;
+  }
+  
+  .registration h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .registration form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .registration label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .registration input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .registration button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+/* Existing styles */
+
+/* Add this media query to your existing styles.css */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; /* Adjust font size for mobile devices */
+  }
+  
+  header {
+    flex-direction: column; /* Stack header items vertically */
+    align-items: flex-start; /* Align header items to the left */
+    padding: 1rem 0; /* Adjust header padding */
+  }
+  
+  nav ul {
+    flex-direction: column; /* Stack navigation items vertically */
+    align-items: flex-start; /* Align navigation items to the left */
+  }
+  
+  .banner img {
+    max-width: 100%; /* Make the banner image responsive */
+  }
+  
+  .about,
+  .registration {
+    padding: 30px; /* Reduce padding for sections */
+  }
+  
+  .registration form {
+    max-width: 100%; /* Make the form full width */
+  }
+  
+  .registration input,
+  .registration button {
+    width: 100%; /* Make form elements full width */
+  }
+}
+

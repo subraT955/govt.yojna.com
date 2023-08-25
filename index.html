@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>ମାଣ୍ଡୁ ଯୋଜନା</title>
+</head>
+<body>
+  <header>
+    <h1>ମାଣ୍ଡୁ ଯୋଜନା</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Schemes</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="banner">
+    <img src="my.png" alt="Banner Image">
+  </section>
+  
+  <section class="about">
+    <h2>About ମାଣ୍ଡୁ ଯୋଜନା</h2>
+    <p>କଣ ଆପଣଙ୍କର ଭି ମାଣ୍ଡୁ ନାହିଁ ....!!</p>
+    <p>ଯଦି ଆପଣ ଭି ଆପଣକର ନାଳୁଆ ସାଙ୍ଗ ମାନଙ୍କ ଭଳି ଗୋଟେ ଗୋଟେ ମାଣ୍ଡୁ ଧରିକି ବୁଲିବାକୁ ଚାହୁଛନ୍ତି ତାହେଲେ ଆଜି ହିଁ ପଞ୍ଜୀକୃତ କରାନ୍ତୁ ଓଡ଼ିଶା ସରକାର ଙ୍କର ଏକ ନୂଆ ଯୋଜନା ରେ , ଯଉଟା କି କେବଳ ମାଣ୍ଡୁହୀନ ମାନଙ୍କ ପାଇଁ ....</p>
+    
+  </section>
+  
+  
+  <!-- Add this code after the existing sections in your index.html -->
+
+<section class="registration">
+    <h2>Register for Mandu Yojana</h2>
+    <form id="registrationForm">
+      <label for="fullName">ନାମ :</label>
+      <input type="text" id="fullName" name="fullName" required>
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        </div>
+      
+      <label for="gender">ଲିଙ୍ଗ :</label>
+      <div class="gender-options">
+          <input type="radio" id="male" name="gender" value="male" required> <label for="male">ପୁରୁଷ </label>
+          
+          
+          <input type="radio" id="female" name="gender" value="female" required>
+          <label for="female">ମହିଳା </label>
+          
+          <input type="radio" id="other" name="gender" value="other" required>
+          <label for="other">ହିଞ୍ଜିଡା </label>
+      </div>
+
+      
+      <button type="submit" class="btn">Register</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2023 Mandu Yojana. All rights reserved.</p>
+  </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const registerForm = document.getElementById("registrationForm");
+        const registerButton = document.getElementById("registerButton");
+    
+        registerForm.addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+    
+            // Perform any validation or processing here
+    
+            // Show an alert
+            alert("ଭାଇ ରେ ଭବିଷ୍ୟତ କଥା ଚିନ୍ତା କର , କାହିଁକି ମାଣ୍ଡୁ ମାଣ୍ଡୁ ହାଉଛୁ !! god bless you ");
+        });
+    });
+    </script>
+  
+ 
+
+</body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</html>
